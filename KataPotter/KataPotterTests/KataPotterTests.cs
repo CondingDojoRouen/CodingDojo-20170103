@@ -50,5 +50,17 @@ namespace CodingDojo
                 KataPotter.GetPrice(potterArray)
             );
         }
+
+        [TestMethod]
+        public void Returns24For3SameBooks()
+        {
+            //Arrange
+            int[] potterArray = new int[] { 1, 1, 1 };
+            //Act
+            var result = KataPotter.GetPrice(potterArray);
+            //Assert
+            Assert.AreEqual(24, result);
+
+        }
     }
 }
