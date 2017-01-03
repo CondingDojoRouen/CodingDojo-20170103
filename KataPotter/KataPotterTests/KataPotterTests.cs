@@ -28,10 +28,22 @@ namespace CodingDojo
         }
 
         [TestMethod]
-        public void ThrowsExceptionIfIncorrectBook()
+        public void ThrowsExceptionIfBookIdGreaterThan5()
         {
             //Arrange
-            int[] potterArray = new int[] { 10 };
+            int[] potterArray = new int[] { 6 };
+            //Act
+            //Assert
+            Assert.ThrowsException<ArgumentException>(() =>
+                KataPotter.GetPrice(potterArray)
+            );
+        }
+
+        [TestMethod]
+        public void ThrowsExceptionIfBookIdLowerThan1()
+        {
+            //Arrange
+            int[] potterArray = new int[] { 0 };
             //Act
             //Assert
             Assert.ThrowsException<ArgumentException>(() => 
