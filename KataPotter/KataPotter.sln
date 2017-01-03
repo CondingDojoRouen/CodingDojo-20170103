@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26014.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataPotterTests", "KataPotterTests\KataPotterTests.csproj", "{1892EA1F-BDF7-4C4B-AD0E-5F9880C5BC93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataPotter", "KataPotter\KataPotter.csproj", "{1E79534B-DD8E-494D-9CFD-AB561F81EBE9}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1892EA1F-BDF7-4C4B-AD0E-5F9880C5BC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1892EA1F-BDF7-4C4B-AD0E-5F9880C5BC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1892EA1F-BDF7-4C4B-AD0E-5F9880C5BC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1892EA1F-BDF7-4C4B-AD0E-5F9880C5BC93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E79534B-DD8E-494D-9CFD-AB561F81EBE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E79534B-DD8E-494D-9CFD-AB561F81EBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E79534B-DD8E-494D-9CFD-AB561F81EBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E79534B-DD8E-494D-9CFD-AB561F81EBE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
