@@ -73,5 +73,17 @@ namespace CodingDojo
             //Assert
             Assert.AreEqual(16 * 0.95f, result);
         }
+
+        [TestMethod]
+        public void ReturnAReductionOf10PercentForThreeDiffrentBooks()
+        {
+            //Arrange
+            int[] potterArray = new int[] { 1, 2, 3 };
+            //Act
+            var result = KataPotter.GetPrice(potterArray);
+            //Assert
+            Assert.AreEqual(24 * 0.90f, result);
+        }
+ 
     }
 }
