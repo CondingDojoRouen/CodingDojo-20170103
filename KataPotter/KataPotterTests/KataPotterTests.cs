@@ -26,5 +26,17 @@ namespace CodingDojo
             //Assert
             Assert.AreEqual(8, result);
         }
+
+        [TestMethod]
+        public void ThrowsExceptionIfIncorrectBook()
+        {
+            //Arrange
+            int[] potterArray = new int[] { 10 };
+            //Act
+            //Assert
+            Assert.ThrowsException<ArgumentException>(() => 
+                KataPotter.GetPrice(potterArray)
+            );
+        }
     }
 }
