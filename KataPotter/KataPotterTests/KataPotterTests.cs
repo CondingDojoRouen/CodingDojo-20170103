@@ -16,5 +16,15 @@ namespace CodingDojo
             //Assert
             Assert.AreEqual(0, result);
         }
+
+        [TestMethod]
+        public void Returns8If1Book()
+        {
+            //Arrange
+            //Act
+            var result = KataPotter.GetPrice(new int[] { 1 });
+            //Assert
+            Assert.AreEqual(8, result);
+        }
     }
 }
